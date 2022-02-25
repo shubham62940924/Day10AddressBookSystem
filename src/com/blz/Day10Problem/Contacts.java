@@ -10,16 +10,7 @@ public class Contacts {
 	private String phoneNumber;
 	private String email;
 
-	/**
-	 * @param firstName
-	 * @param lastName
-	 * @param address
-	 * @param city
-	 * @param state
-	 * @param zip
-	 * @param phoneNumber
-	 * @param email
-	 */
+	// add contacts
 	public Contacts(String firstName, String lastName, String address, String city, String state, String zip,
 			String phoneNumber, String email) {
 		super();
