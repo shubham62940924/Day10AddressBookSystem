@@ -1,3 +1,5 @@
+//Add contact Details
+
 package com.blz.Day10Problem;
 
 public class Contacts {
@@ -10,7 +12,16 @@ public class Contacts {
 	private String phoneNumber;
 	private String email;
 
-	// add contacts
+	/**
+	 * @param firstName
+	 * @param lastName
+	 * @param address
+	 * @param city
+	 * @param state
+	 * @param zip
+	 * @param phoneNumber
+	 * @param email
+	 */
 	public Contacts(String firstName, String lastName, String address, String city, String state, String zip,
 			String phoneNumber, String email) {
 		super();
